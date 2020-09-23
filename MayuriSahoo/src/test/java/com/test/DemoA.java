@@ -1,6 +1,5 @@
 package com.test;
 
-import java.sql.Driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +16,14 @@ public class DemoA {
 	{
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html");
+	driver.close();
+	
+		System.out.println("Hello Manu Kakkar Visited ur program");
+	
 	}
+	
+	
+	
 	
 
 }
