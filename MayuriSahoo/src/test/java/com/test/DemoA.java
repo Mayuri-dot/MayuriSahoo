@@ -14,11 +14,14 @@ public class DemoA {
 	@Test
 	public void testBrowser()
 	{
+		
+	System.out.println("Hello Manu Kakkar Visited ur program");
+	
 	WebDriver driver = new ChromeDriver();
-	driver.get("https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html");
+	driver.get("https://www.google.com");
 	driver.close();
 	
-		System.out.println("Hello Manu Kakkar Visited ur program");
+		
 	
 	}
 	
